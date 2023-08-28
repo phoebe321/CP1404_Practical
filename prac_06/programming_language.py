@@ -1,5 +1,4 @@
 
-
 class ProgrammingLanguage:
     def __init__(self, name="", typing="", reflection=True, year=0):
         self.name = name
@@ -12,8 +11,3 @@ class ProgrammingLanguage:
 
     def is_dynamic(self):
         return self.typing == "Dynamic"
-
-
-
-
-

@@ -1,4 +1,3 @@
-from prac_06.guitar import Guitar
 
 def main():
     print("My guitars!")
@@ -21,8 +20,3 @@ def main():
         print(f"Guitar {i}: {guitar.name:>20} ({guitar.year}), worth ${guitar.cost:10,.2f}{vintage_string}")
 
 main()
-
-
-
-
-

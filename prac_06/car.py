@@ -13,7 +13,6 @@ class Car:
         self.fuel = fuel
         self._odometer = 0
 
-
     def __str__(self):
         """Convert"""
         return f"{self.name}, fuel={self.fuel}, odometer={self._odometer}"
