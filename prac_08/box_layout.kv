@@ -1,0 +1,23 @@
+BoxLayout:
+    orientation: 'vertical'
+
+    Button:
+        text: 'Clear'
+        font_size: 40
+        on_press: app.handle_clear()  # Call the handle_clear method when this button is pressed
+
+    TextInput:
+        id: input_name
+        text: 'Guido'
+        font_size: 35
+
+    Button:
+        text: 'Greet'
+        font_size: 40
+        on_press: app.handle_greet()  # Call the handle_greet method when this button is pressed
+
+    Label:
+        id: output_label
+        text: 'Hello Guido'
+        font_size: 40
+        color: 1, 1, 0, 1  # RGB color tuple
