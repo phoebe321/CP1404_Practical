@@ -1,5 +1,5 @@
 
-import csv
+
 from prac_06.guitar import Guitar
 
 
@@ -28,15 +28,4 @@ def main():
 # Call the main function
 main()
 
-
-def using_csv():
-    """Language file reader version using the csv module."""
-    # First, open the file for reading - note: specify newline
-    # to avoid quoted \n in strings being considered a new record
-    in_file = open('guitars.csv', 'r', newline='')
-    in_file.readline()
-    reader = csv.reader(in_file)  # use default dialect, Excel
-    for row in reader:
-        print(row)
-    in_file.close()
 
